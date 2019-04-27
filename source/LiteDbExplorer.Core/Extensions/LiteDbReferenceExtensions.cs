@@ -72,23 +72,23 @@ namespace LiteDbExplorer.Core
                 }
                 if (bsonValue.IsDateTime)
                 {
-                    return bsonValue.AsDateTime.ToString(CultureInfo.InvariantCulture);
+                    return bsonValue.AsDateTime.ToString();
                 }
                 if (bsonValue.IsInt32)
                 {
-                    return bsonValue.AsInt32.ToString(CultureInfo.InvariantCulture);
+                    return bsonValue.AsInt32.ToString();
                 }
                 if (bsonValue.IsInt64)
                 {
-                    return bsonValue.AsInt64.ToString(CultureInfo.InvariantCulture);
+                    return bsonValue.AsInt64.ToString();
                 }
                 if (bsonValue.IsDouble)
                 {
-                    return bsonValue.AsDouble.ToString(CultureInfo.InvariantCulture);
+                    return bsonValue.AsDouble.ToString();
                 }
                 if (bsonValue.IsDecimal)
                 {
-                    return bsonValue.AsDecimal.ToString(CultureInfo.InvariantCulture);
+                    return bsonValue.AsDecimal.ToString();
                 }
                 if (bsonValue.IsGuid)
                 {
